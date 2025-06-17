@@ -15,11 +15,11 @@ emotions = ['Tense', 'Happiness', 'Repression', 'Disgust', 'Surprise', 'Contempt
 emotion_to_song = {
     'Tense': 'metal.mp3',
     'Happiness': 'happy.mp3',
-    'Repression': 'Orchestral.mp3',
+    'Repression': 'orchestral.mp3',
     'Disgust': 'metal.mp3',
     'Surprise': 'Orchestral.mp3',
     'Contempt': 'metal.mp3',
-    'Fear': 'Orchestral.mp3',
+    'Fear': 'orchestral.mp3',
     'Sadness': 'happy2.mp3'
 }
 default_song = 'happy2.mp3'
