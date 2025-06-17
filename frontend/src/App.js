@@ -5,8 +5,8 @@ function App() {
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
     songName: 'happy2',
     songArtist: 'F2P',
-    songSrc: './Assets/songs/happy2.mp3',
-    songAvatar: './Assets/Images/image1.jpg'
+    songSrc: '/Assets/songs/happy2.mp3',
+    songAvatar: '/Assets/Images/image1.jpg'
   });
 
   // Existing state variables
@@ -56,32 +56,32 @@ function App() {
     {
       songName: 'happy2',
       songArtist: 'F2P',
-      songSrc: './Assets/songs/happy2.mp3',
-      songAvatar: './Assets/Images/image1.webp'
+      songSrc: '/Assets/songs/happy2.mp3',
+      songAvatar: '/Assets/Images/image1.webp'
     },
     {
       songName: 'happy',
       songArtist: 'F2P',
-      songSrc: './Assets/songs/happy.mp3',
-      songAvatar: './Assets/Images/image4.webp'
+      songSrc: '/Assets/songs/happy.mp3',
+      songAvatar: '/Assets/Images/image4.webp'
     },
     {
       songName: 'metal',
       songArtist: 'F2P',
-      songSrc: './Assets/songs/metal.mp3',
-      songAvatar: './Assets/Images/image2.webp'
+      songSrc: '/Assets/songs/metal.mp3',
+      songAvatar: '/Assets/Images/image2.webp'
     },
     {
       songName: 'Orchestral',
       songArtist: 'F2P',
-      songSrc: './Assets/songs/Orchestral.mp3',
-      songAvatar: './Assets/Images/image3.webp'
+      songSrc: '/Assets/songs/Orchestral.mp3',
+      songAvatar: '/Assets/Images/image3.webp'
     },
     {
       songName: 'relax',
       songArtist: 'F2P',
-      songSrc: './Assets/songs/relax.mp3',
-      songAvatar: './Assets/Images/image5.webp'
+      songSrc: '/Assets/songs/relax.mp3',
+      songAvatar: '/Assets/Images/image5.webp'
     }
   ];
 
@@ -176,10 +176,10 @@ function App() {
   };
 
   const vidArray = [
-    './Assets/Videos/video1.mp4',
-    './Assets/Videos/video2.mp4',
-    './Assets/Videos/video3.mp4',
-    './Assets/Videos/video4.mp4'
+    '/Assets/Videos/video1.mp4',
+    '/Assets/Videos/video2.mp4',
+    '/Assets/Videos/video3.mp4',
+    '/Assets/Videos/video4.mp4'
   ];
 
   const handleChangeBackground = () => {
