@@ -215,7 +215,7 @@ function App() {
     try {
       const formData = new FormData();
       formData.append('image', imageBlob, 'frame.jpg');
-      const response = await fetch('http://localhost:5000/get_next_song', {
+      const response = await fetch('https://automated-micro-expression-based-music.onrender.com/get_next_song', {
         method: 'POST',
         body: formData
       });
