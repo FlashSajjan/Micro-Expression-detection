@@ -176,10 +176,10 @@ function App() {
   };
 
   const vidArray = [
-    '/Assets/Videos/video1.mp4',
-    '/Assets/Videos/video2.mp4',
-    '/Assets/Videos/video3.mp4',
-    '/Assets/Videos/video4.mp4'
+    process.env.PUBLIC_URL + '/Assets/Videos/video1.mp4',
+    process.env.PUBLIC_URL + '/Assets/Videos/video2.mp4',
+    process.env.PUBLIC_URL + '/Assets/Videos/video3.mp4',
+    process.env.PUBLIC_URL + '/Assets/Videos/video4.mp4'
   ];
 
   const handleChangeBackground = () => {
