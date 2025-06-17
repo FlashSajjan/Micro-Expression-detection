@@ -74,7 +74,7 @@ function App() {
     {
       songName: 'Orchestral',
       songArtist: 'F2P',
-      songSrc: '/Assets/songs/Orchestral.mp3',
+      songSrc: '/Assets/songs/orchestral.mp3',
       songAvatar: '/Assets/Images/image3.webp'
     },
     {
